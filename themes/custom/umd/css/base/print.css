@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* CSS Document - Print */
 
 #umh-cont,
@@ -7,31 +8,35 @@
 .footer,
 .mega-menu,
 .lib-btn-group,
-.footer-socials,
 .lib-banner-sub,
 #custgooglesearch {
-  display: none !important;
+    display: none !important;
 }
 
 .navbar {
-  display: block !important;
-  margin-top: -70px !important;
+    display: block !important;
+    margin-top: -70px !important;
 }
 
 #logo-header {
-  display: block !important;
+    display: block !important;
 }
 
 img {
-  max-height: 400px !important;
-  width: inherit !important;
+    max-height: 400px !important;
+    width: inherit !important;
 }
 
 a[href]:after {
-  content: none !important;
+    content: none !important;
 }
 
 table {
-  width: 100%;
+    width: 100%;
 }
 
+.footer-socials {
+    text-align: right;
+    color: #eeeeee;
+    margin: 20px;
+}
