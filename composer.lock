@@ -1891,7 +1891,8 @@
             "homepage": "https://www.drupal.org/project/authorization",
             "support": {
                 "source": "https://git.drupalcode.org/project/authorization"
-            }
+            },
+            "time": "2018-09-18T18:07:38+00:00"
         },
         {
             "name": "drupal/autologout",
@@ -2226,7 +2227,8 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/ckeditor_drupalbreaks",
                 "issues": "https://www.drupal.org/project/issues/ckeditor_drupalbreaks"
-            }
+            },
+            "time": "2018-02-01T17:07:39+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -2480,17 +2482,17 @@
         },
         {
             "name": "drupal/flag",
-            "version": "4.0.0-alpha3",
+            "version": "4.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/flag.git",
-                "reference": "8.x-4.0-alpha3"
+                "reference": "8.x-4.0-beta1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/flag-8.x-4.0-alpha3.zip",
-                "reference": "8.x-4.0-alpha3",
-                "shasum": "cb55277b79ff66871f0e1bd9a417b2490cae3a84"
+                "url": "https://ftp.drupal.org/files/projects/flag-8.x-4.0-beta1.zip",
+                "reference": "8.x-4.0-beta1",
+                "shasum": "a8873e368489f37b53e5ae8262a6e1ed7fdabea1"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -2504,11 +2506,11 @@
                     "dev-4.x": "4.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-4.0-alpha3",
-                    "datestamp": "1521598850",
+                    "version": "8.x-4.0-beta1",
+                    "datestamp": "1572442085",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "message": "Beta releases are not covered by Drupal security advisories."
                     }
                 }
             },
